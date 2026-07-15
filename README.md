@@ -1,5 +1,6 @@
-# 🎓 Student Placement Predictor
+# PlaceTrack AI
 
+### Student Placement Prediction System
 A Machine Learning web application that predicts whether a student is likely to be placed based on their academic performance and educational background.
 The application is built using **Scikit-Learn Pipeline** and deployed with **Streamlit** to provide real-time predictions through an interactive user interface.
 
