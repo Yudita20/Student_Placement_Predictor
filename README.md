@@ -5,8 +5,16 @@ The application is built using **Scikit-Learn Pipeline** and deployed with **Str
 
 ---
 
-## Project preview
-> Screenshots will be added after deployment
+## 📸 Project Preview
+
+### Home Page
+
+![Home](images/home.png)
+![Home](images/home2.png)
+
+### Prediction Result
+
+![Prediction](images/Prediction.png)
 
 ---
 
@@ -89,3 +97,10 @@ streamlit run app.py
 **Yudita Khanodia**
 Artificial Intelligence & Machine Learning Student
 GitHub: https://github.com/Yudita20
+
+## 🌐 Live Demo
+
+🚀 **Try the application here:**
+
+[**Student Placement Predictor**](https://yudita20-student-placement-predictor-app-bpsjnc.streamlit.app/)
+
