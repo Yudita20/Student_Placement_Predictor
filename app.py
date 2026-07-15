@@ -1,9 +1,15 @@
 import streamlit as st
 import pandas as pd
-import joblib
+import traceback
 
-
-pipeline = joblib.load("placement_pipeline.pkl")
+try:
+    import joblib
+    st.write("Imported")
+    pipeline = joblib.load("placement_pipeline.pkl")
+    st.write("pipeline loaded")
+except Exception:
+    st.code(traceback.format_exc())
+    st.stop()
 # Title
 st.set_page_config(
     page_title="Student Placement Predictor",
