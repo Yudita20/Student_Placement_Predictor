@@ -28,7 +28,7 @@ plt.show()
 
 # Data Cleaning and preprocessing
 
-# Remove unnecessary columns
+# Remove unnecessary columns, sl_no is an identifier
 df.drop("sl_no", axis=1, inplace=True)
 
 # Salary is available only for placed students, so remove it
